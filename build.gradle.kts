@@ -32,7 +32,8 @@ dependencies {
 
     // di
     implementation("io.insert-koin:koin-core:$koin_ersion")
-    implementation("io.insert-koin:koin-ktor:3.5.2-RC1")
+    implementation("io.insert-koin:koin-ktor:3.5.2-RC1") // this version is NOT WORKING
+//    implementation("io.insert-koin:koin-ktor:3.5.1") // this version is work
     implementation("io.insert-koin:koin-logger-slf4j:3.5.1")
     testImplementation("io.insert-koin:koin-test:$koin_ersion") {
         // https://github.com/InsertKoinIO/koin/issues/1526
